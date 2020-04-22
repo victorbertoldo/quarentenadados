@@ -280,11 +280,13 @@
     
 
     
-    \section{Introdução em analise de dados em
-python}\label{introduuxe7uxe3o-em-analise-de-dados-em-python}
+    \hypertarget{introduuxe7uxe3o-em-analise-de-dados-em-python}{%
+\section{Introdução em analise de dados em
+python}\label{introduuxe7uxe3o-em-analise-de-dados-em-python}}
 
-    \subsubsection{Apenas executando alguns
-códigos}\label{apenas-executando-alguns-cuxf3digos}
+    \hypertarget{apenas-executando-alguns-cuxf3digos}{%
+\subsubsection{Apenas executando alguns
+códigos}\label{apenas-executando-alguns-cuxf3digos}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}1}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Victor  Bertoldo}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
@@ -320,8 +322,9 @@ Totoro, o filme
 {\color{outcolor}Out[{\color{outcolor}4}]:} 'Totoro, o filme'
 \end{Verbatim}
             
-    \subsection{Importando a base de dados de filmes usando
-pandas}\label{importando-a-base-de-dados-de-filmes-usando-pandas}
+    \hypertarget{importando-a-base-de-dados-de-filmes-usando-pandas}{%
+\subsection{Importando a base de dados de filmes usando
+pandas}\label{importando-a-base-de-dados-de-filmes-usando-pandas}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}5}]:} \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
@@ -351,23 +354,25 @@ pandas}\label{importando-a-base-de-dados-de-filmes-usando-pandas}
 \end{Verbatim}
             
     ** Caso queira ver a documentação referente ao tipo de objeto
-(variavel), basta colocar um '?' após a variável **
+(variavel), basta colocar um `?' após a variável **
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}6}]:} \PY{c+c1}{\PYZsh{}filmes?}
 \end{Verbatim}
 
 
-    \subsubsection{Alterando o nome das
-colunas}\label{alterando-o-nome-das-colunas}
+    \hypertarget{alterando-o-nome-das-colunas}{%
+\subsubsection{Alterando o nome das
+colunas}\label{alterando-o-nome-das-colunas}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}7}]:} \PY{n}{filmes}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{filmeId}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{filme}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{genero}\PY{l+s+s1}{\PYZsq{}} \PY{p}{]}
 \end{Verbatim}
 
 
-    \subsection{Importando base de dados de
-avaliações}\label{importando-base-de-dados-de-avaliauxe7uxf5es}
+    \hypertarget{importando-base-de-dados-de-avaliauxe7uxf5es}{%
+\subsection{Importando base de dados de
+avaliações}\label{importando-base-de-dados-de-avaliauxe7uxf5es}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}8}]:} \PY{n}{uri} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://github.com/alura\PYZhy{}cursos/introducao\PYZhy{}a\PYZhy{}data\PYZhy{}science/blob/master/aula0/ml\PYZhy{}latest\PYZhy{}small/ratings.csv?raw=true}\PY{l+s+s1}{\PYZsq{}}
@@ -386,8 +391,9 @@ avaliações}\label{importando-base-de-dados-de-avaliauxe7uxf5es}
         4       1       50     5.0  964982931
 \end{Verbatim}
             
-    \subsubsection{Para visualizar a Qtd de linhas e colunas do
-dataframe}\label{para-visualizar-a-qtd-de-linhas-e-colunas-do-dataframe}
+    \hypertarget{para-visualizar-a-qtd-de-linhas-e-colunas-do-dataframe}{%
+\subsubsection{Para visualizar a Qtd de linhas e colunas do
+dataframe}\label{para-visualizar-a-qtd-de-linhas-e-colunas-do-dataframe}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}9}]:} \PY{n}{avaliacoes}\PY{o}{.}\PY{n}{shape} 
@@ -398,8 +404,9 @@ dataframe}\label{para-visualizar-a-qtd-de-linhas-e-colunas-do-dataframe}
 {\color{outcolor}Out[{\color{outcolor}9}]:} (100836, 4)
 \end{Verbatim}
             
-    \subsubsection{Para visualizar apenas a qtd de
-linhas}\label{para-visualizar-apenas-a-qtd-de-linhas}
+    \hypertarget{para-visualizar-apenas-a-qtd-de-linhas}{%
+\subsubsection{Para visualizar apenas a qtd de
+linhas}\label{para-visualizar-apenas-a-qtd-de-linhas}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}10}]:} \PY{n+nb}{len}\PY{p}{(}\PY{n}{avaliacoes}\PY{p}{)}
@@ -410,8 +417,9 @@ linhas}\label{para-visualizar-apenas-a-qtd-de-linhas}
 {\color{outcolor}Out[{\color{outcolor}10}]:} 100836
 \end{Verbatim}
             
-    \subsubsection{Sobreescrevendo o nome das
-colunas}\label{sobreescrevendo-o-nome-das-colunas}
+    \hypertarget{sobreescrevendo-o-nome-das-colunas}{%
+\subsubsection{Sobreescrevendo o nome das
+colunas}\label{sobreescrevendo-o-nome-das-colunas}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}11}]:} \PY{n}{avaliacoes}\PY{o}{.}\PY{n}{columns}
@@ -430,12 +438,14 @@ colunas}\label{sobreescrevendo-o-nome-das-colunas}
          4          1       50   5.0  964982931
 \end{Verbatim}
             
-    \subsection{Fazendo consultas no
-dataframe}\label{fazendo-consultas-no-dataframe}
+    \hypertarget{fazendo-consultas-no-dataframe}{%
+\subsection{Fazendo consultas no
+dataframe}\label{fazendo-consultas-no-dataframe}}
 
+\hypertarget{trazendo-as-avaliauxe7uxf5es-apenas-do-filmeid-igual-uxe0-1.-mostrando-apenas-os-10-primeiros}{%
 \subsubsection{Trazendo as avaliações apenas do filmeId igual à 1.
 Mostrando apenas os 10
-primeiros}\label{trazendo-as-avaliauxe7uxf5es-apenas-do-filmeid-igual-uxe0-1.-mostrando-apenas-os-10-primeiros}
+primeiros}\label{trazendo-as-avaliauxe7uxf5es-apenas-do-filmeid-igual-uxe0-1.-mostrando-apenas-os-10-primeiros}}
 
 \begin{quote}
 Para trabalharmos com esta consulta, vamos armazenar estes dados em uma
@@ -463,11 +473,13 @@ variável
          4879         31        1   5.0   850466616
 \end{Verbatim}
             
-    \subsection{O describe mostra algumas estatisticas do
-dataframe}\label{o-describe-mostra-algumas-estatisticas-do-dataframe}
+    \hypertarget{o-describe-mostra-algumas-estatisticas-do-dataframe}{%
+\subsection{O describe mostra algumas estatisticas do
+dataframe}\label{o-describe-mostra-algumas-estatisticas-do-dataframe}}
 
+\hypertarget{mostrando-as-estatisticas-do-dataframe-completo}{%
 \subsubsection{Mostrando as estatisticas do dataframe
-completo:}\label{mostrando-as-estatisticas-do-dataframe-completo}
+completo:}\label{mostrando-as-estatisticas-do-dataframe-completo}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}13}]:} \PY{n}{avaliacoes}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
@@ -486,8 +498,9 @@ completo:}\label{mostrando-as-estatisticas-do-dataframe-completo}
          max       610.000000  193609.000000       5.000000  1.537799e+09
 \end{Verbatim}
             
-    \paragraph{Visão (preview) de apenas uma
-coluna}\label{visuxe3o-preview-de-apenas-uma-coluna}
+    \hypertarget{visuxe3o-preview-de-apenas-uma-coluna}{%
+\paragraph{Visão (preview) de apenas uma
+coluna}\label{visuxe3o-preview-de-apenas-uma-coluna}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}14}]:} \PY{n}{avaliacoes}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
@@ -503,8 +516,9 @@ coluna}\label{visuxe3o-preview-de-apenas-uma-coluna}
          Name: nota, dtype: float64
 \end{Verbatim}
             
-    \subsection{Estatísticas apenas do filme de Id igual a
-1}\label{estatuxedsticas-apenas-do-filme-de-id-igual-a-1}
+    \hypertarget{estatuxedsticas-apenas-do-filme-de-id-igual-a-1}{%
+\subsection{Estatísticas apenas do filme de Id igual a
+1}\label{estatuxedsticas-apenas-do-filme-de-id-igual-a-1}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}15}]:} \PY{n}{avaliacoes\PYZus{}filmeId\PYZus{}1}\PY{o}{.}\PY{n}{describe}\PY{p}{(}\PY{p}{)}
@@ -523,36 +537,40 @@ coluna}\label{visuxe3o-preview-de-apenas-uma-coluna}
          max    610.000000      1.0    5.000000  1.535710e+09
 \end{Verbatim}
             
-    \paragraph{Definidndo o id do filme que queremos
-analisar}\label{definidndo-o-id-do-filme-que-queremos-analisar}
+    \hypertarget{definidndo-o-id-do-filme-que-queremos-analisar}{%
+\paragraph{Definidndo o id do filme que queremos
+analisar}\label{definidndo-o-id-do-filme-que-queremos-analisar}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 {\color{incolor}In [{\color{incolor}16}]:} \PY{n+nb}{id} \PY{o}{=} \PY{l+m+mi}{1}
 \end{Verbatim}
 
 
-    \paragraph{Armazenando o nome do filme em uma
-variável}\label{armazenando-o-nome-do-filme-em-uma-variuxe1vel}
+    \hypertarget{armazenando-o-nome-do-filme-em-uma-variuxe1vel}{%
+\paragraph{Armazenando o nome do filme em uma
+variável}\label{armazenando-o-nome-do-filme-em-uma-variuxe1vel}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}18}]:} \PY{n}{nome\PYZus{}do\PYZus{}filme} \PY{o}{=} \PY{n}{filmes}\PY{o}{.}\PY{n}{query}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId==@id}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{filme}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}17}]:} \PY{n}{nome\PYZus{}do\PYZus{}filme} \PY{o}{=} \PY{n}{filmes}\PY{o}{.}\PY{n}{query}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId==@id}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{filme}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
          \PY{n}{nome\PYZus{}do\PYZus{}filme}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}18}]:} 0    Toy Story (1995)
+{\color{outcolor}Out[{\color{outcolor}17}]:} 0    Toy Story (1995)
          Name: filme, dtype: object
 \end{Verbatim}
             
-    \subsection{Trazendo métricas específicas de
-campo}\label{trazendo-muxe9tricas-especuxedficas-de-campo}
+    \hypertarget{trazendo-muxe9tricas-especuxedficas-de-campo}{%
+\subsection{Trazendo métricas específicas de
+campo}\label{trazendo-muxe9tricas-especuxedficas-de-campo}}
 
+\hypertarget{buscando-apenas-o-nome-do-filme}{%
 \paragraph{Buscando apenas o nome do
-Filme}\label{buscando-apenas-o-nome-do-filme}
+Filme}\label{buscando-apenas-o-nome-do-filme}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}19}]:} \PY{n}{f1} \PY{o}{=} \PY{n+nb}{str}\PY{p}{(}\PY{n}{nome\PYZus{}do\PYZus{}filme}\PY{p}{)}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{split}\PY{p}{(}\PY{p}{)}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{:}\PY{l+m+mi}{3}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}18}]:} \PY{n}{f1} \PY{o}{=} \PY{n+nb}{str}\PY{p}{(}\PY{n}{nome\PYZus{}do\PYZus{}filme}\PY{p}{)}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{split}\PY{p}{(}\PY{p}{)}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{:}\PY{l+m+mi}{3}\PY{p}{]}
          
          \PY{n}{f1} \PY{o}{=} \PY{n}{f1}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ }\PY{l+s+s1}{\PYZsq{}} \PY{o}{+} \PY{n}{f1}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}
          \PY{n+nb}{print}\PY{p}{(}\PY{n}{f1}\PY{p}{)}
@@ -564,11 +582,12 @@ Toy Story
 
     \end{Verbatim}
 
-    \subsection{Apresentando a Média das notas apenas do filme id igual à
-1}\label{apresentando-a-muxe9dia-das-notas-apenas-do-filme-id-igual-uxe0-1}
+    \hypertarget{apresentando-a-muxe9dia-das-notas-apenas-do-filme-id-igual-uxe0-1}{%
+\subsection{Apresentando a Média das notas apenas do filme id igual à
+1}\label{apresentando-a-muxe9dia-das-notas-apenas-do-filme-id-igual-uxe0-1}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}20}]:} \PY{n}{mediaf1} \PY{o}{=} \PY{n}{avaliacoes\PYZus{}filmeId\PYZus{}1}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}19}]:} \PY{n}{mediaf1} \PY{o}{=} \PY{n}{avaliacoes\PYZus{}filmeId\PYZus{}1}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{p}{)}
          
          \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{A média do Filme }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{, é }\PY{l+s+si}{\PYZob{}:.2f\PYZcb{}}\PY{l+s+s2}{.}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{f1}\PY{p}{,}\PY{n}{mediaf1}\PY{p}{)}\PY{p}{)}
 \end{Verbatim}
@@ -579,21 +598,22 @@ A média do Filme Toy Story, é 3.92.
 
     \end{Verbatim}
 
-    \section{Cruzando os dados dos 2 dataframes para mostrar tabela com o
+    \hypertarget{cruzando-os-dados-dos-2-dataframes-para-mostrar-tabela-com-o-nome-do-filme-e-a-sua-muxe9dia-de-avaliauxe7uxf5es}{%
+\section{Cruzando os dados dos 2 dataframes para mostrar tabela com o
 nome do filme e a sua média de
-avaliações}\label{cruzando-os-dados-dos-2-dataframes-para-mostrar-tabela-com-o-nome-do-filme-e-a-sua-muxe9dia-de-avaliauxe7uxf5es}
+avaliações}\label{cruzando-os-dados-dos-2-dataframes-para-mostrar-tabela-com-o-nome-do-filme-e-a-sua-muxe9dia-de-avaliauxe7uxf5es}}
 
     ** Agrupando dos dados da tabela de avaliações e trazendo a média por
 filme **
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}23}]:} \PY{n}{notas\PYZus{}medias\PYZus{}por\PYZus{}filme} \PY{o}{=} \PY{n}{avaliacoes}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{nota}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}20}]:} \PY{n}{notas\PYZus{}medias\PYZus{}por\PYZus{}filme} \PY{o}{=} \PY{n}{avaliacoes}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{nota}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{p}{)}
          \PY{n}{notas\PYZus{}medias\PYZus{}por\PYZus{}filme}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}23}]:} filmeId
+{\color{outcolor}Out[{\color{outcolor}20}]:} filmeId
          1    3.920930
          2    3.431818
          3    3.259615
@@ -602,11 +622,12 @@ filme **
          Name: nota, dtype: float64
 \end{Verbatim}
             
-    \paragraph{Usando o join}\label{usando-o-join}
+    \hypertarget{usando-o-join}{%
+\paragraph{Usando o join}\label{usando-o-join}}
 
     \begin{quote}
-Se o numero de linhas do dataframe 'avaliacoes' fosse examente igual ao
-numero de linhas da series 'notas\_medias\_por\_filme' e os dois
+Se o numero de linhas do dataframe `avaliacoes' fosse examente igual ao
+numero de linhas da series `notas\_medias\_por\_filme' e os dois
 estivessem na mesma ordem, eu poderia apenas colar a series no dataframe
 da seguinte maneira:
 \end{quote}
@@ -617,14 +638,14 @@ filmes.head()
 \end{verbatim}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}49}]:} \PY{n}{filmes\PYZus{}com\PYZus{}media} \PY{o}{=} \PY{n}{filmes}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{n}{notas\PYZus{}medias\PYZus{}por\PYZus{}filme}\PY{p}{,} \PY{n}{on}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}21}]:} \PY{n}{filmes\PYZus{}com\PYZus{}media} \PY{o}{=} \PY{n}{filmes}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{n}{notas\PYZus{}medias\PYZus{}por\PYZus{}filme}\PY{p}{,} \PY{n}{on}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
          
          \PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}49}]:}    filmeId                               filme  \textbackslash{}
+{\color{outcolor}Out[{\color{outcolor}21}]:}    filmeId                               filme  \textbackslash{}
          0        1                    Toy Story (1995)   
          1        2                      Jumanji (1995)   
          2        3             Grumpier Old Men (1995)   
@@ -639,16 +660,17 @@ filmes.head()
          4                                       Comedy  3.071429  
 \end{Verbatim}
             
-    \paragraph{Ordenando o dataframe por nota de forma
-decrescente}\label{ordenando-o-dataframe-por-nota-de-forma-decrescente}
+    \hypertarget{ordenando-o-dataframe-por-nota-de-forma-decrescente}{%
+\paragraph{Ordenando o dataframe por nota de forma
+decrescente}\label{ordenando-o-dataframe-por-nota-de-forma-decrescente}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}60}]:} \PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{ascending}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{l+m+mi}{15}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}22}]:} \PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{ascending}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{l+m+mi}{15}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}60}]:}       filmeId                                              filme  \textbackslash{}
+{\color{outcolor}Out[{\color{outcolor}22}]:}       filmeId                                              filme  \textbackslash{}
          7656    88448              Paper Birds (Pájaros de papel) (2010)   
          8107   100556                         Act of Killing, The (2012)   
          9083   143031                                    Jump In! (2007)   
@@ -683,36 +705,307 @@ decrescente}\label{ordenando-o-dataframe-por-nota-de-forma-decrescente}
          9131   Animation|Children|Comedy   5.0  
 \end{Verbatim}
             
-    \section{Desafio 1:}\label{desafio-1}
+    \hypertarget{iniciando-visualizauxe7uxe3o-de-dados}{%
+\section{Iniciando visualização de
+dados}\label{iniciando-visualizauxe7uxe3o-de-dados}}
 
-Encontrar os filmes que não tiveram nenhuma avaliação
+\hypertarget{hipuxf3tese-1}{%
+\subsubsection{Hipótese 1:}\label{hipuxf3tese-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Será que os filmes com média igual a nota máxima receberam o mesmo
+  quantitativo de votos que os filmes com média entre 3 e 4?
+\item
+  Qual será a representatividade dos votos de acordo com o filme?
+\item
+  Um filme com média 5 pode ter recebido apenas 1 voto e em
+  contrapartida um filme com média 4 pode ter recebido 100 votos, o que
+  não significa que o filme com média 5 é ``melhor'' que outros filmes
+  com média inferior.
+\end{itemize}
+
+\begin{quote}
+Para validar a hipótese serão analisados os filmes 1, 2 e 102084
+\end{quote}
+
+    \hypertarget{muxe9dia-dos-filmes-escolhidos}{%
+\subsubsection{Média dos filmes
+escolhidos:}\label{muxe9dia-dos-filmes-escolhidos}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}59}]:} \PY{n}{avaliacoes}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{isnull}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}23}]:} \PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{o}{.}\PY{n}{query}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId in [1,2, 102084]}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}59}]:} 0    False
-         1    False
-         2    False
-         3    False
-         4    False
-         Name: nota, dtype: bool
+{\color{outcolor}Out[{\color{outcolor}23}]:}       filmeId                         filme  \textbackslash{}
+         0           1              Toy Story (1995)   
+         1           2                Jumanji (1995)   
+         8148   102084  Justice League: Doom (2012)    
+         
+                                                    genero      nota  
+         0     Adventure|Animation|Children|Comedy|Fantasy  3.920930  
+         1                      Adventure|Children|Fantasy  3.431818  
+         8148                     Action|Animation|Fantasy  5.000000  
 \end{Verbatim}
             
-    \section{Desafio 2:}\label{desafio-2}
+    \hypertarget{importando-biblioteca-para-refinar-as-visualizauxe7uxf5es}{%
+\paragraph{Importando biblioteca para refinar as
+visualizações}\label{importando-biblioteca-para-refinar-as-visualizauxe7uxf5es}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}24}]:} \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
+\end{Verbatim}
+
+
+    \hypertarget{distribuiuxe7uxe3o-dos-dados-de-voto-do-filme-1}{%
+\subsubsection{Distribuição dos dados de voto do filme
+1}\label{distribuiuxe7uxe3o-dos-dados-de-voto-do-filme-1}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}25}]:} \PY{n}{avaliacoes}\PY{o}{.}\PY{n}{query}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId==1}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{nota}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{kind}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{hist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{title}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Avaliações do filme Toy Story}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_50_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{quote}
+Neste filme houve uma quantidade considerável de votos com a nota
+máxima.
+\end{quote}
+
+    \hypertarget{distribuiuxe7uxe3o-dos-dados-de-voto-do-filme-2}{%
+\subsubsection{Distribuição dos dados de voto do filme
+2}\label{distribuiuxe7uxe3o-dos-dados-de-voto-do-filme-2}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}26}]:} \PY{n}{avaliacoes}\PY{o}{.}\PY{n}{query}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId==2}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{nota}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{kind}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{hist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{title}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Avaliações do filme Jumanji}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_53_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{quote}
+Este filme recebeu menos votos com notas máximas e mais votos entre 3 e
+4.
+\end{quote}
+
+    \hypertarget{distribuiuxe7uxe3o-dos-dados-de-voto-do-filme-102084}{%
+\subsubsection{Distribuição dos dados de voto do filme
+102084}\label{distribuiuxe7uxe3o-dos-dados-de-voto-do-filme-102084}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}27}]:} \PY{n}{avaliacoes}\PY{o}{.}\PY{n}{query}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId==102084}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{nota}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{kind}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{hist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{title}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Justice League: Doom}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_56_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \begin{quote}
+Este filme obteve nota máxima, porém de apenas 1 voto.
+\end{quote}
+
+    \hypertarget{diante-da-amostra-analisada-acima-a-hipuxf3tese-se-confirmou}{%
+\subsection{Diante da amostra analisada acima, a hipótese se
+confirmou!}\label{diante-da-amostra-analisada-acima-a-hipuxf3tese-se-confirmou}}
+
+\hypertarget{avaliando-a-distribuiuxe7uxe3o-dos-dados-fica-claro-que-o-filme-com-nota-muxe1xima-nuxe3o-obteve-um-nuxfamero-de-votos-representativos-o-suficiente-para-determinar-que-os-filmes-melhores-avaliados-nota-muxe1xima-nuxe3o-necessariamente-suxe3o-filmes-melhores-que-filmes-com-muxe9dia-entre-3-e-4.}{%
+\paragraph{Avaliando a distribuição dos dados, fica claro que o filme
+com nota máxima não obteve um número de votos representativos o
+suficiente para determinar que os filmes melhores avaliados (nota
+máxima) não necessariamente são filmes melhores que filmes com média
+entre 3 e
+4.}\label{avaliando-a-distribuiuxe7uxe3o-dos-dados-fica-claro-que-o-filme-com-nota-muxe1xima-nuxe3o-obteve-um-nuxfamero-de-votos-representativos-o-suficiente-para-determinar-que-os-filmes-melhores-avaliados-nota-muxe1xima-nuxe3o-necessariamente-suxe3o-filmes-melhores-que-filmes-com-muxe9dia-entre-3-e-4.}}
+
+    \hypertarget{desafio-1}{%
+\section{Desafio 1:}\label{desafio-1}}
+
+Encontrar os filmes que não tiveram nenhuma avaliação
+
+    \hypertarget{visualizando-a-coluna-nota}{%
+\subsubsection{Visualizando a coluna
+nota:}\label{visualizando-a-coluna-nota}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}28}]:} \PY{n}{avaliacoes}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}28}]:} 0    4.0
+         1    4.0
+         2    4.0
+         3    5.0
+         4    5.0
+         5    3.0
+         6    5.0
+         7    4.0
+         8    5.0
+         9    5.0
+         Name: nota, dtype: float64
+\end{Verbatim}
+            
+    \hypertarget{quantas-linhas-existem-na-coluna-nota}{%
+\subsubsection{Quantas linhas existem na coluna
+nota?}\label{quantas-linhas-existem-na-coluna-nota}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}29}]:} \PY{n}{avaliacoes}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{count}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}29}]:} 100836
+\end{Verbatim}
+            
+    \hypertarget{transformando-a-coluna-nota-em-uma-series-indexada-pelo-id-do-filme}{%
+\subsubsection{Transformando a coluna Nota em uma Series indexada pelo
+id do
+filme}\label{transformando-a-coluna-nota-em-uma-series-indexada-pelo-id-do-filme}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}30}]:} \PY{n}{series\PYZus{}nota} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{Series}\PY{p}{(}\PY{n}{avaliacoes}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{index}\PY{o}{=}\PY{n}{avaliacoes}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{filmeId}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{retornando-o-total-de-avaliauxe7uxf5es-nulas}{%
+\subsubsection{Retornando o total de avaliações
+nulas}\label{retornando-o-total-de-avaliauxe7uxf5es-nulas}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}33}]:} \PY{n}{nulos} \PY{o}{=} \PY{n}{series\PYZus{}nota}\PY{o}{.}\PY{n}{isna}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{where}\PY{p}{(}\PY{n}{series\PYZus{}nota} \PY{o}{==} \PY{k+kc}{True}\PY{p}{)}
+         \PY{n}{nulos}\PY{o}{.}\PY{n}{count}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}33}]:} 3284
+\end{Verbatim}
+            
+    \hypertarget{isso-nuxe3o-quer-dizer-que-este-valor-de-nulos-uxe9-total-de-filmes-sem-avaliauxe7uxf5es}{%
+\subsubsection{Isso não quer dizer que este valor de nulos é total de
+filmes sem
+avaliações}\label{isso-nuxe3o-quer-dizer-que-este-valor-de-nulos-uxe9-total-de-filmes-sem-avaliauxe7uxf5es}}
+
+** Para isso, vamos primeiro buscar o dataframe de filmes com média **
+
+    \hypertarget{buscar-apenas-filmes-sem-avaliauxe7uxf5es}{%
+\subsubsection{Buscar apenas filmes sem
+avaliações}\label{buscar-apenas-filmes-sem-avaliauxe7uxf5es}}
+
+\begin{quote}
+A ideia aqui é conseguir criar uma lista apenas com o index de filmes
+sem avaliações, após obter a lista de index, usá-la como parâmetro no
+loc para trazer do dataframe `filmes\_com\_media' os filmes sem
+avaliações.
+\end{quote}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}35}]:} \PY{n}{lista\PYZus{}nulos} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{isnull}\PY{p}{(}\PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{p}{)}
+         \PY{n}{indice} \PY{o}{=} \PY{n}{lista\PYZus{}nulos}\PY{o}{.}\PY{n}{query}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{nota==True}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{o}{.}\PY{n}{index}
+         \PY{n}{filmes\PYZus{}com\PYZus{}avaliacoes\PYZus{}nulas} \PY{o}{=} \PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{indice}\PY{p}{]}
+         \PY{n}{filmes\PYZus{}com\PYZus{}avaliacoes\PYZus{}nulas}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}35}]:}       filmeId                                         filme  \textbackslash{}
+         816      1076                         Innocents, The (1961)   
+         2211     2939                                Niagara (1953)   
+         2499     3338                        For All Mankind (1989)   
+         2587     3456  Color of Paradise, The (Rang-e khoda) (1999)   
+         3118     4194                I Know Where I'm Going! (1945)   
+         4037     5721                            Chosen, The (1981)   
+         4506     6668   Road Home, The (Wo de fu qin mu qin) (1999)   
+         4598     6849                                Scrooge (1970)   
+         4704     7020                                  Proof (1991)   
+         5020     7792                     Parallax View, The (1974)   
+         5293     8765                      This Gun for Hire (1942)   
+         5421    25855                  Roaring Twenties, The (1939)   
+         5452    26085                   Mutiny on the Bounty (1962)   
+         5749    30892            In the Realms of the Unreal (2004)   
+         5824    32160                      Twentieth Century (1934)   
+         5837    32371                     Call Northside 777 (1948)   
+         5957    34482                  Browning Version, The (1951)   
+         7565    85565                            Chalet Girl (2011)   
+         
+                                 genero  nota  
+         816      Drama|Horror|Thriller   NaN  
+         2211            Drama|Thriller   NaN  
+         2499               Documentary   NaN  
+         2587                     Drama   NaN  
+         3118         Drama|Romance|War   NaN  
+         4037                     Drama   NaN  
+         4506             Drama|Romance   NaN  
+         4598     Drama|Fantasy|Musical   NaN  
+         4704      Comedy|Drama|Romance   NaN  
+         5020                  Thriller   NaN  
+         5293  Crime|Film-Noir|Thriller   NaN  
+         5421      Crime|Drama|Thriller   NaN  
+         5452   Adventure|Drama|Romance   NaN  
+         5749     Animation|Documentary   NaN  
+         5824                    Comedy   NaN  
+         5837     Crime|Drama|Film-Noir   NaN  
+         5957                     Drama   NaN  
+         7565            Comedy|Romance   NaN  
+\end{Verbatim}
+            
+    \hypertarget{outra-forma-mais-simples-de-trazer-estes-dados-uxe9-da-maneira-mostrada-abaixo}{%
+\subsubsection{Outra forma mais simples de trazer estes dados é da
+maneira mostrada
+abaixo:}\label{outra-forma-mais-simples-de-trazer-estes-dados-uxe9-da-maneira-mostrada-abaixo}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}36}]:} \PY{n}{lista\PYZus{}nulo} \PY{o}{=} \PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{isnull}\PY{p}{(}\PY{p}{)}
+         \PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{p}{[}\PY{n}{lista\PYZus{}nulo}\PY{p}{]}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{l+m+mi}{3}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}36}]:}       filmeId                   filme                 genero  nota
+         816      1076   Innocents, The (1961)  Drama|Horror|Thriller   NaN
+         2211     2939          Niagara (1953)         Drama|Thriller   NaN
+         2499     3338  For All Mankind (1989)            Documentary   NaN
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}37}]:} \PY{n}{qtd\PYZus{}nulo} \PY{o}{=} \PY{n}{filmes\PYZus{}com\PYZus{}avaliacoes\PYZus{}nulas}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{filmeId}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{count}\PY{p}{(}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{No total houveram }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{ filmes sem nenhuma avalição.}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{qtd\PYZus{}nulo}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+No total houveram 18 filmes sem nenhuma avalição.
+
+    \end{Verbatim}
+
+    \hypertarget{desafio-2}{%
+\section{Desafio 2:}\label{desafio-2}}
 
 Mudar o nome da coluna nota para média após o join.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}47}]:} \PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{o}{.}\PY{n}{rename}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{media\PYZus{}notas}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{,} \PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}38}]:} \PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{o}{.}\PY{n}{rename}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{media\PYZus{}notas}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{,} \PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
          \PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}47}]:}    filmeId                               filme  \textbackslash{}
+{\color{outcolor}Out[{\color{outcolor}38}]:}    filmeId                               filme  \textbackslash{}
          0        1                    Toy Story (1995)   
          1        2                      Jumanji (1995)   
          2        3             Grumpier Old Men (1995)   
@@ -727,11 +1020,178 @@ Mudar o nome da coluna nota para média após o join.
          4                                       Comedy     3.071429  
 \end{Verbatim}
             
-    \section{Desafio 3}\label{desafio-3}
+    \hypertarget{desafio-3}{%
+\section{Desafio 3}\label{desafio-3}}
 
 Colocar o número de avaliações por filme, isto é, não só a media, mas o
 total de votos por filme
 
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}39}]:} \PY{n}{notas\PYZus{}aggr\PYZus{}qtd} \PY{o}{=} \PY{n}{avaliacoes}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{count}\PY{p}{(}\PY{p}{)}
+         \PY{n}{notas\PYZus{}aggr\PYZus{}qtd}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}39}]:} filmeId
+         1    215
+         2    110
+         3     52
+         4      7
+         5     49
+         Name: nota, dtype: int64
+\end{Verbatim}
+            
+    \hypertarget{dataset-de-filmes-com-a-qtd-de-avaliauxe7uxf5es}{%
+\subsubsection{Dataset de filmes com a qtd de
+avaliações}\label{dataset-de-filmes-com-a-qtd-de-avaliauxe7uxf5es}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}40}]:} \PY{n}{filmes\PYZus{}com\PYZus{}qtd} \PY{o}{=} \PY{n}{filmes\PYZus{}com\PYZus{}media}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{n}{notas\PYZus{}aggr\PYZus{}qtd}\PY{p}{,} \PY{n}{on}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{filmeId}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+         \PY{n}{filmes\PYZus{}com\PYZus{}qtd}\PY{o}{.}\PY{n}{rename}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{\PYZob{}}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{nota}\PY{l+s+s1}{\PYZsq{}}\PY{p}{:}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{total\PYZus{}votos}\PY{l+s+s1}{\PYZsq{}}\PY{p}{\PYZcb{}}\PY{p}{,} \PY{n}{inplace}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
+         
+         \PY{n}{filmes\PYZus{}com\PYZus{}qtd}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{total\PYZus{}votos}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{ascending}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}40}]:}       filmeId                                      filme  \textbackslash{}
+         314       356                        Forrest Gump (1994)   
+         277       318           Shawshank Redemption, The (1994)   
+         257       296                        Pulp Fiction (1994)   
+         510       593           Silence of the Lambs, The (1991)   
+         1939     2571                         Matrix, The (1999)   
+         224       260  Star Wars: Episode IV - A New Hope (1977)   
+         418       480                       Jurassic Park (1993)   
+         97        110                          Braveheart (1995)   
+         507       589          Terminator 2: Judgment Day (1991)   
+         461       527                    Schindler's List (1993)   
+         
+                                         genero  media\_notas  total\_votos  
+         314           Comedy|Drama|Romance|War     4.164134        329.0  
+         277                        Crime|Drama     4.429022        317.0  
+         257        Comedy|Crime|Drama|Thriller     4.197068        307.0  
+         510              Crime|Horror|Thriller     4.161290        279.0  
+         1939            Action|Sci-Fi|Thriller     4.192446        278.0  
+         224            Action|Adventure|Sci-Fi     4.231076        251.0  
+         418   Action|Adventure|Sci-Fi|Thriller     3.750000        238.0  
+         97                    Action|Drama|War     4.031646        237.0  
+         507                      Action|Sci-Fi     3.970982        224.0  
+         461                          Drama|War     4.225000        220.0  
+\end{Verbatim}
+            
+    \hypertarget{desafio-4}{%
+\section{Desafio 4}\label{desafio-4}}
+
+Arredondamento dos valores da coluna de notas\_medias
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}41}]:} \PY{n}{filmes\PYZus{}com\PYZus{}qtd}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{media\PYZus{}notas}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{filmes\PYZus{}com\PYZus{}qtd}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{media\PYZus{}notas}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{round}\PY{p}{(}\PY{p}{)}
+         \PY{n}{filmes\PYZus{}com\PYZus{}qtd}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}41}]:}    filmeId                               filme  \textbackslash{}
+         0        1                    Toy Story (1995)   
+         1        2                      Jumanji (1995)   
+         2        3             Grumpier Old Men (1995)   
+         3        4            Waiting to Exhale (1995)   
+         4        5  Father of the Bride Part II (1995)   
+         
+                                                 genero  media\_notas  total\_votos  
+         0  Adventure|Animation|Children|Comedy|Fantasy          4.0        215.0  
+         1                   Adventure|Children|Fantasy          3.0        110.0  
+         2                               Comedy|Romance          3.0         52.0  
+         3                         Comedy|Drama|Romance          2.0          7.0  
+         4                                       Comedy          3.0         49.0  
+\end{Verbatim}
+            
+    \hypertarget{desafio-5}{%
+\section{Desafio 5}\label{desafio-5}}
+
+Descobrir os generos únicos dos filmes
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}42}]:} \PY{n}{generos\PYZus{}df} \PY{o}{=} \PY{n}{filmes\PYZus{}com\PYZus{}qtd}\PY{o}{.}\PY{n}{genero}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{get\PYZus{}dummies}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{|}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{generos} \PY{o}{=} \PY{n}{generos\PYZus{}df}\PY{o}{.}\PY{n}{columns}
+         \PY{n}{generos}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}42}]:} ['(no genres listed)',
+          'Action',
+          'Adventure',
+          'Animation',
+          'Children',
+          'Comedy',
+          'Crime',
+          'Documentary',
+          'Drama',
+          'Fantasy',
+          'Film-Noir',
+          'Horror',
+          'IMAX',
+          'Musical',
+          'Mystery',
+          'Romance',
+          'Sci-Fi',
+          'Thriller',
+          'War',
+          'Western']
+\end{Verbatim}
+            
+    \hypertarget{desafio-6}{%
+\section{Desafio 6}\label{desafio-6}}
+
+Contar o número de aparições de cada genero.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}43}]:} \PY{n}{generos\PYZus{}df}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{n}{ascending}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}43}]:} Drama                 4361
+         Comedy                3756
+         Thriller              1894
+         Action                1828
+         Romance               1596
+         Adventure             1263
+         Crime                 1199
+         Sci-Fi                 980
+         Horror                 978
+         Fantasy                779
+         Children               664
+         Animation              611
+         Mystery                573
+         Documentary            440
+         War                    382
+         Musical                334
+         Western                167
+         IMAX                   158
+         Film-Noir               87
+         (no genres listed)      34
+         dtype: int64
+\end{Verbatim}
+            
+    \hypertarget{desafio-7}{%
+\section{Desafio 7}\label{desafio-7}}
+
+Plotar o grafico de aparições por genero. Grafico de barras.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}44}]:} \PY{n}{generos\PYZus{}df}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{sort\PYZus{}values}\PY{p}{(}\PY{n}{ascending}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{kind}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{barh}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{title}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Total de filmes por genero}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{16}\PY{p}{,} \PY{l+m+mi}{6}\PY{p}{)}\PY{p}{,}\PY{n}{color}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{purple}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_87_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
 
     % Add a bibliography block to the postdoc
     
